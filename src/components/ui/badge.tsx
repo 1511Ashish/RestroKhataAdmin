@@ -4,8 +4,8 @@ import { SubscriptionStatus } from "@/features/adminApi";
 
 const statusClasses: Record<SubscriptionStatus, string> = {
   ACTIVE: "bg-success/15 text-success",
-  EXPIRED: "bg-warning/15 text-warning",
-  CANCELLED: "bg-danger/15 text-danger",
+  SUSPENDED: "bg-warning/15 text-warning",
+  DELETED: "bg-danger/15 text-danger",
 };
 
 export function StatusBadge({
